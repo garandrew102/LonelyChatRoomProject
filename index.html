@@ -6,10 +6,11 @@
     <style>
       *{
         box-sizing: border-box;
-        font-family: "Arial Black", Gadget, sans-serif
+        font-family: "Arial Black", Gadget, sans-serif;
+        list-style: none;
       }
       body{
-        background-color: lightgoldenrodyellow;
+        background-color: rgb(250, 210, 210);
       }
       #main{
         display: grid;
@@ -20,7 +21,7 @@
       #heading{
         display: grid;
         place-items: center;
-        background-color: aliceblue;
+        background-color: rgb(25, 123, 209);
         border-radius: 10px;
         padding: 30px;
       }
@@ -31,7 +32,7 @@
       #chatbox{
         height: 400px;
         padding: 20px;
-        background-color: white;
+        background-color: rgb(87, 172, 66);
         border-radius: 10px;
         display: grid;
         grid-template-columns: 1fr;
@@ -74,7 +75,7 @@
         <h3>No Friends? No Problem!</h3>
       </div>
       <div id="chatbox">
-        <div class="message" id="2">
+        <!-- <div class="message" id="2">
           <span>10:22</span>
           <span class="sender">Myself:</span>
           <span>Is it me you're looking for?</span>
@@ -85,12 +86,12 @@
           <span class="sender">Me:</span>
           <span>Hello?</span>
           <span class="delete">❌</span>
-        </div>
+        </div> -->
       </div>
       <form><input type="text"/></form>
       <button>I'm feeling Lonely!</button>
     </div>
-    <script>
+    <script src="index.js">
     </script>
   </body>
 </html>
